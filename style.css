@@ -1,3 +1,9 @@
+* {
+    margin: 0px;
+}
+
+
+
 header, footer {
     background-color: #1F2937;
 }
@@ -5,6 +11,14 @@ header, footer {
 header {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+footer {
+    text-align: center;
+    color: #E5E7EB;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    font-family: roboto;
 }
 
 .hero h1 {
@@ -24,4 +38,12 @@ header {
     border-radius: 8px;
     border: none;
     padding: 8px 30px;
+}
+
+.random-info-card p  {
+    font-family: roboto;
+}
+
+blockquote{
+    font-family: roboto;
 }
