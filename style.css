@@ -1,54 +1,3 @@
-/*  I'll just start over
-* {
-    margin: 0px;
-}
-
-header, footer {
-    background-color: #1F2937;
-}
-
-header {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-footer {
-    text-align: center;
-    color: #E5E7EB;
-    padding-top: 26px;
-    padding-bottom: 26px;
-    font-family: roboto;
-}
-
-.hero h1 {
-    color: #F9FAF8;
-    font-weight: bolder;
-    font-size: 48px;
-}
-
-.hero p {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-.hero button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border-radius: 8px;
-    border: none;
-    padding: 8px 30px;
-}
-
-.random-info-card p  {
-    font-family: roboto;
-}
-
-blockquote{
-    font-family: roboto;
-}
-
- */
-
 * {
     margin: 0;
     padding: 0;
@@ -56,11 +5,24 @@ blockquote{
     font-family: roboto, sans-serif, Arial;
 }
 
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100 px;
-    background: #1F2937;
+header {
+    padding: 20px 200px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
